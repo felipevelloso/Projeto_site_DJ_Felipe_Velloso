@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.foto-dj {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*   conseguimos fazer degrades com muitas cores, você pode brincar com a paleta de cores e tambem com os números dos degrades  */
+body {
+  background: linear-gradient(-30deg, #d3b1d0, #684c6b, #000);
+
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(45deg, #9c19e0, #ff5da2);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1f0f0b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SEÇÕES */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #ff0000;
+}
+
+/* GALERIA */
+.imagens {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imagens img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* CONTATO */
+button {
+  padding: 15px 30px;
+  background: #25d366;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
